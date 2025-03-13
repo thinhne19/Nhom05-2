@@ -1,49 +1,129 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Trang Web Cá Nhân</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võ Thanh Em - Student Profile</title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <h1>Trang Web Cá Nhân</h1>
+    <header>
+        <div class="container">
+            <h1>Student Group Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="student1.html">Dương Thị Cẩm Tú</a></li>
+                    <li><a href="student2.html">Nguyễn Lê Đức Thịnh</a></li>
+                    <li><a href="student3.html">Nguyễn Quốc An</a></li>
+                    <li><a href="student4.html">Đoàn Nguyễn Thế Anh</a></li>
+                    <li><a href="student5.html">Nguyễn Thiên Bảo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="section" id="personal-info">
-        <h2>1. Thông tin cá nhân</h2>
-        <p><strong>Họ tên:</strong> Nguyễn Thiên BảoBảo</p>
-        <p><strong>Sở thích:</strong> Ngủ và đi chơichơi</p>
-        <p><strong>Định hướng nghề nghiệp:</strong>Lập trình gamegame</p>
-        <img src="/assets/images/avatar.jpg" alt="Ảnh đại diện" width="150">
-    </div>
+    <section class="profile">
+        <div class="container">
+            <div class="profile-header">
+                <img src="../assets/images/student5.jpg" alt="Nguyễn Thiên Bảo" class="profile-img">
+                <div class="profile-intro">
+                    <h2>Võ Thanh Em</h2>
+                    <p>Mobile Developer | Cross-Platform Specialist</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-dev"></i></a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="section" id="education">
-        <h2>2. Quá trình học tập</h2>
-        <p>Lập trình web, lập trình di động, lập trình windowsfrom</p>
-        <p>Dự án thực hiện gồm Game thủ thành, Game quản lý nhà hànghàng</p>
-    </div>
+            <div class="profile-section">
+                <h3>About Me</h3>
+                <p>I'm Nguyễn Thiên Bảo, a mobile developer specializing in creating high-performance, user-friendly applications for iOS and Android platforms. With expertise in both native and cross-platform development, I focus on delivering seamless user experiences across all devices.</p>
+                <p>I'm passionate about mobile technologies and stay up-to-date with the latest frameworks and design patterns. My goal is to create applications that not only look beautiful but also perform efficiently and provide real value to users.</p>
+            </div>
 
-    <div class="section" id="skills">
-        <h2>3. Kỹ năng đạt được</h2>
-        <ul>
-            <li>Lập trình: Java, C#, python</li>
-            <li>Thiết kế UI/UX: figmafigma</li>
-            <li>AI/ML: [Nếu có]</li>
-        </ul>
-    </div>
+            <div class="profile-section">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Bachelor of Science in Software Engineering</h4>
+                    <div class="education-year">2021 - 2025</div>
+                    <p>Hutech University of Technology - Ho Chi Minh</p>
+                    <p>Specialized in Mobile Applications Development. GPA: 3.7/4.0. Capstone Project: "Cross-Platform Solution for Location-Based Service Applications".</p>
+                </div>
+                <div class="education-item">
+                    <h4>iOS Development with Swift Certification</h4>
+                    <div class="education-year">2022</div>
+                    <p>Apple Developer Academy</p>
+                    <p>Intensive program covering Swift programming, iOS frameworks, user interface design, and app submission process with emphasis on practical project development.</p>
+                </div>
+            </div>
 
-    <div class="section" id="projects">
-        <h2>4. Dự án cá nhân</h2>
-        <p>Dự án lớn nhất trong quá trình học là Game quản lý nhà hàng mutiplays</p>
-    </div>
+            <div class="profile-section">
+                <h3>Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Swift</div>
+                    <div class="skill-item">Kotlin</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">React Native</div>
+                    <div class="skill-item">Flutter</div>
+                    <div class="skill-item">Firebase</div>
+                    <div class="skill-item">GraphQL</div>
+                    <div class="skill-item">REST APIs</div>
+                    <div class="skill-item">SQLite</div>
+                    <div class="skill-item">Git</div>
+                    <div class="skill-item">CI/CD</div>
+                    <div class="skill-item">App Store Publishing</div>
+                </div>
+            </div>
 
-    <div class="section contact" id="contact">
-        <h2>5. Liên hệ</h2>
-        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">LinkedIn của bạn</a></p>
-        <p>GitHub: <a href="https://github.com/yourgithub">GitHub của bạn</a></p>
-        <p><a href="/assets/files/cv.pdf">Tải CV</a></p>
-    </div>
+            <div class="profile-section">
+                <h3>Projects</h3>
+                <div class="project-item">
+                    <h4>Health & Fitness Tracker</h4>
+                    <div class="project-tech">Flutter, Firebase, Google Fit API, Apple HealthKit</div>
+                    <p>Developed a comprehensive fitness application that synchronizes with wearable devices to track workouts, nutrition, and health metrics. Implemented real-time data synchronization and offline functionality with customizable workout plans.</p>
+                </div>
+                <div class="project-item">
+                    <h4>Food Delivery Mobile App</h4>
+                    <div class="project-tech">React Native, Redux, Node.js, MongoDB</div>
+                    <p>Created a complete food ordering and delivery application with features including restaurant browsing, menu customization, order tracking, and payment integration. Implemented geolocation services for restaurant discovery and delivery tracking.</p>
+                </div>
+                <div class="project-item">
+                    <h4>Language Learning Application</h4>
+                    <div class="project-tech">Swift, Kotlin, CoreData, Room Database</div>
+                    <p>Built native iOS and Android applications for language learning using gamification principles. Incorporated spaced repetition algorithms, speech recognition, and progress tracking with offline learning capabilities.</p>
+                </div>
+            </div>
 
-    <script src="/assets/js/script.js"></script>
+            <div class="profile-section">
+                <h3>Experience</h3>
+                <div class="education-item">
+                    <h4>Mobile Development Intern</h4>
+                    <div class="education-year">2023 (6 months)</div>
+                    <p>AppMakers Ltd., Da Nang</p>
+                    <p>Participated in the development of cross-platform mobile applications using Flutter. Implemented UI components and integrated REST APIs. Collaborated with design and backend teams to ensure seamless app functionality.</p>
+                </div>
+                <div class="education-item">
+                    <h4>Freelance Mobile Developer</h4>
+                    <div class="education-year">2022 - Present</div>
+                    <p>Self-employed</p>
+                    <p>Developed mobile applications for small businesses and startups. Created custom solutions for various industries including retail, food service, and fitness. Managed the entire development lifecycle from requirements gathering to app store submission.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Student Group Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
 </body>
 </html>
